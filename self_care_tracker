@@ -1,0 +1,53 @@
+import random
+def main():
+    print("Welcome to GlowTrack ✨")
+    print("1. Log Mood")
+    print("2. Track Habits")
+    print("3. Daily Affirmation")
+    print("4. Exit")
+
+    choice = input("Choose an option: ")
+
+    if choice == "1":
+        mood = input("How are you feeling today? ")
+
+        if mood == "happy":
+            print("I love that for you ✨")
+
+        elif mood == "sad":
+            print("Tomorrow is a new day 💖")
+
+        elif mood == "stressed":
+            print("Take a deep breath. You’re doing your best 🌸")
+
+        elif mood == "tired":
+            print("Rest is productive too 🌙")
+
+        print("Your mood today is:", mood)
+        print("Thank you for checking in 💖")
+
+    elif choice == "2":
+        print("Habit tracker coming soon 🌸")
+
+    elif choice == "3":
+        affirmations = [
+            "You are growing every day 🌱",
+            "Small progress still counts ✨",
+            "You are allowed to rest 🌙",
+            "You are stronger than you think 💖",
+            "One step at a time is still movement 👣"
+        ]
+
+        affirmation = random.choice(affirmations)
+
+        print("Your affirmation for today:")
+        print(affirmation)
+
+    elif choice == "4":
+        print("Goodbye!")
+
+    else:
+        print("Invalid option")
+
+
+main()

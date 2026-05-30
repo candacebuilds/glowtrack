@@ -27,7 +27,21 @@ def main():
         print("Thank you for checking in 💖")
 
     elif choice == "2":
-        print("Habit tracker coming soon 🌸")
+        habits = ["drink water", "coding practice", "reading", "self-care"]
+
+        print("Today's habits:")
+
+        completed = 0
+
+        for habit in habits:
+            answer = input(f"Did you complete {habit}? yes/no: ")
+
+            if answer == "yes":
+                completed += 1
+                print("Great job! ✅")
+        else:
+            print("That's okay, try again tomorrow 🌸")
+        print("🏆 Habits Completed:", completed, "/4")
 
     elif choice == "3":
         affirmations = [

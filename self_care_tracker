@@ -1,4 +1,54 @@
 import random
+def log_mood():
+    mood = input("How are you feeling today? ")
+
+    if mood == "happy":
+        print("I love that for you ✨")
+
+    elif mood == "sad":
+        print("Tomorrow is a new day 💖")
+
+    elif mood == "stressed":
+        print("Take a deep breath. You’re doing your best 🌸")
+
+    elif mood == "tired":
+        print("Rest is productive too 🌙")
+
+    print("Your mood today is:", mood)
+    print("Thank you for checking in 💖")
+
+def show_affirmation():
+    affirmations = [
+        "You are growing every day 🌱",
+        "Small progress still counts ✨",
+        "You are allowed to rest 🌙",
+        "You are stronger than you think 💖",
+        "One step at a time is still movement 👣"
+    ]
+
+    affirmation = random.choice(affirmations)
+
+    print("Your affirmation for today:")
+    print(affirmation)
+
+def track_habits():
+    habits = ["drink water", "coding practice", "reading", "self-care"]
+
+    print("Today's habits:")
+
+    completed = 0
+
+    for habit in habits:
+        answer = input(f"Did you complete {habit}? yes/no: ")
+
+        if answer == "yes":
+            completed += 1
+            print("Great job! ✅")
+        else:
+            print("That's okay, try again tomorrow 🌸")
+
+    print("🏆 Habits Completed:", completed, "/4")
+
 def main():
     print("Welcome to GlowTrack ✨")
     print("1. Log Mood")
@@ -9,53 +59,13 @@ def main():
     choice = input("Choose an option: ")
 
     if choice == "1":
-        mood = input("How are you feeling today? ")
-
-        if mood == "happy":
-            print("I love that for you ✨")
-
-        elif mood == "sad":
-            print("Tomorrow is a new day 💖")
-
-        elif mood == "stressed":
-            print("Take a deep breath. You’re doing your best 🌸")
-
-        elif mood == "tired":
-            print("Rest is productive too 🌙")
-
-        print("Your mood today is:", mood)
-        print("Thank you for checking in 💖")
+        log_mood()
 
     elif choice == "2":
-        habits = ["drink water", "coding practice", "reading", "self-care"]
-
-        print("Today's habits:")
-
-        completed = 0
-
-        for habit in habits:
-            answer = input(f"Did you complete {habit}? yes/no: ")
-
-            if answer == "yes":
-                completed += 1
-                print("Great job! ✅")
-        else:
-            print("That's okay, try again tomorrow 🌸")
-        print("🏆 Habits Completed:", completed, "/4")
+        track_habits()
 
     elif choice == "3":
-        affirmations = [
-            "You are growing every day 🌱",
-            "Small progress still counts ✨",
-            "You are allowed to rest 🌙",
-            "You are stronger than you think 💖",
-            "One step at a time is still movement 👣"
-        ]
-
-        affirmation = random.choice(affirmations)
-
-        print("Your affirmation for today:")
-        print(affirmation)
+        show_affirmation()
 
     elif choice == "4":
         print("Goodbye!")

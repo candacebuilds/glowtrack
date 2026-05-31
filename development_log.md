@@ -27,3 +27,19 @@
 - Water intake tracking
 - Journaling section
 - Data saving with CSV or JSON
+
+## May 31, 2026
+
+### Refactoring Improvements
+
+- Created log_mood() function
+- Created track_habits() function
+- Created show_affirmation() function
+- Simplified main() into a menu controller
+
+### What I Learned
+
+- Functions help organize large programs
+- Each function should have a single responsibility
+- Refactoring improves readability without changing functionality
+- Clean code is easier to maintain and expand

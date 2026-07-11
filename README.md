@@ -37,6 +37,14 @@ Example affirmations:
 * "Small progress still counts ✨"
 * "You are stronger than you think 💖"
 
+## Repeating Menu System
+
+GlowTrack now remains active after completing an action, allowing users to continue using the application without restarting it.
+
+The application loops back to the main menu after each completed task and only exits when the user selects the Exit option.
+
+This feature improves the user experience and better simulates how a real application behaves.
+
 ---
 
 # 💻 Technologies Used
@@ -62,6 +70,8 @@ This project was built to strengthen understanding of:
 * random selection
 * debugging and indentation
 * Git and GitHub workflow
+- while loops
+- program control with `break`
 
 ---
 
@@ -77,6 +87,14 @@ Planned future upgrades include:
 * streak tracking
 * graphical user interface (GUI)
 * personalized wellness suggestions
+- water intake tracker
+- journaling section
+- save user data with JSON
+- mood history
+- habit streak tracking
+- multiple user profiles
+- graphical user interface (GUI)
+- personalized wellness insights
 
 ---
 

@@ -50,6 +50,30 @@ def track_habits():
     print("🏆 Habits Completed:", completed, "/4")
 
 def main():
+    while True:
+        print("\nWelcome to GlowTrack ✨")
+        print("1. Log Mood")
+        print("2. Track Habits")
+        print("3. Daily Affirmation")
+        print("4. Exit")
+
+        choice = input("Choose an option: ")
+
+        if choice == "1":
+            log_mood()
+
+        elif choice == "2":
+            track_habits()
+
+        elif choice == "3":
+            show_affirmation()
+
+        elif choice == "4":
+            print("Goodbye! Take care of yourself 🌸")
+            break
+
+        else:
+            print("Invalid option. Please choose 1–4.")
     print("Welcome to GlowTrack ✨")
     print("1. Log Mood")
     print("2. Track Habits")

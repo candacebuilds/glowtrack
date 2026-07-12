@@ -45,6 +45,13 @@ The application loops back to the main menu after each completed task and only e
 
 This feature improves the user experience and better simulates how a real application behaves.
 
+## Water Intake Tracking
+
+GlowTrack includes a daily water tracker with a default hydration goal of 64 ounces.
+
+Users can enter the amount of water they have consumed, view their updated total, and see how many ounces remain before reaching the daily goal.
+
+The tracker also provides encouraging feedback based on progress and prevents the remaining amount from displaying as a negative number when the goal is exceeded.
 ---
 
 # 💻 Technologies Used
@@ -72,29 +79,27 @@ This project was built to strengthen understanding of:
 * Git and GitHub workflow
 - while loops
 - program control with `break`
-
+- integer input conversion with `int()`
+- arithmetic calculations
+- comparison operators
+- conditional feedback based on user progress
+- preventing invalid display values
 ---
 
 # 🚀 Future Features
 
 Planned future upgrades include:
 
-* habit completion tracking
-* water intake tracker
-* journaling section
-* data saving with CSV or JSON
-* progress statistics
-* streak tracking
-* graphical user interface (GUI)
-* personalized wellness suggestions
-- water intake tracker
-- journaling section
-- save user data with JSON
-- mood history
-- habit streak tracking
-- multiple user profiles
-- graphical user interface (GUI)
-- personalized wellness insights
+
+- 📝 journaling section
+- 💾 save user data with JSON
+- 📈 progress statistics and wellness summaries
+- 🔥 habit and hydration streak tracking
+- 😊 mood history
+- 👤 multiple user profiles
+- 🧩 object-oriented redesign (Version 1.0)
+- 🖥️ graphical user interface (GUI)
+- 📱 future web and mobile versions for the SoulSpace ecosystem
 
 ---
 
@@ -107,6 +112,28 @@ GlowTrack is being developed incrementally as part of a beginner programming por
 * development documentation
 * debugging workflows
 * readable and maintainable code structure
+
+---
+
+## Version History
+
+### Version 0.1
+- Initial console application
+
+### Version 0.2
+- Mood tracker
+- Habit tracker
+- Daily affirmations
+- Refactored into functions
+
+### Version 0.3
+- Repeating menu
+- Improved program flow
+
+### Version 0.4
+- Water tracker
+- Progress feedback
+- Hydration goal tracking
 
 ---
 

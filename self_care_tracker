@@ -49,13 +49,48 @@ def track_habits():
 
     print("🏆 Habits Completed:", completed, "/4")
 
+def track_water():
+    daily_goal = 64
+    current_total = 0
+
+    print("\n💧 Water Tracker")
+    print("Daily Goal:", daily_goal, "oz")
+    print("Current Total:", current_total, "oz")
+
+    water = int(input("\nHow many ounces would you like to add today? "))
+
+    current_total += water
+
+    remaining = daily_goal - current_total
+
+    if current_total >= daily_goal:
+        remaining = 0
+
+    print("\nGreat job staying hydrated! 💧")
+    print("Current Total:", current_total, "oz")
+
+    if current_total >= daily_goal:
+        print("🎉 Amazing job!")
+        print("You reached today's hydration goal!")
+
+    elif current_total >= 40:
+        print("🌸 You're almost there!")
+        print("Keep sipping!")
+
+    else:
+        print("💧 Great start!")
+        print("Every sip counts.")
+
+    print("Remaining:", remaining, "oz")
+
 def main():
     while True:
         print("\nWelcome to GlowTrack ✨")
         print("1. Log Mood")
         print("2. Track Habits")
         print("3. Daily Affirmation")
-        print("4. Exit")
+        print("4. Water Tracker")
+        print("5. Exit")
 
         choice = input("Choose an option: ")
 
@@ -69,33 +104,14 @@ def main():
             show_affirmation()
 
         elif choice == "4":
+            track_water()
+
+        elif choice == "5":
             print("Goodbye! Take care of yourself 🌸")
             break
 
         else:
-            print("Invalid option. Please choose 1–4.")
-    print("Welcome to GlowTrack ✨")
-    print("1. Log Mood")
-    print("2. Track Habits")
-    print("3. Daily Affirmation")
-    print("4. Exit")
+            print("Invalid option. Please choose 1–5.")
 
-    choice = input("Choose an option: ")
-
-    if choice == "1":
-        log_mood()
-
-    elif choice == "2":
-        track_habits()
-
-    elif choice == "3":
-        show_affirmation()
-
-    elif choice == "4":
-        print("Goodbye!")
-
-    else:
-        print("Invalid option")
-
-
+   
 main()

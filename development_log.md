@@ -69,3 +69,34 @@ Previously, GlowTrack closed after completing a single task. The new menu system
 - Add a water intake tracker.
 - Add a journaling feature.
 - Begin saving user data to JSON files.
+
+## July 12, 2026
+
+## Version 0.4 – Water Tracker
+
+### Feature Added
+- Added a daily water intake tracker.
+- Set a default daily hydration goal of 64 ounces.
+- Allowed users to enter the number of ounces consumed.
+- Calculated the current total and remaining ounces.
+- Added progress-based encouragement messages.
+- Prevented remaining ounces from displaying as a negative number after the goal is reached.
+
+### Challenges
+- Converting user input from text into an integer.
+- Deciding where the progress conditions should be placed.
+- Handling totals that exceeded the daily goal.
+- Removing duplicated menu code that affected program flow.
+
+### What I Learned
+- How to convert user input using `int()`.
+- How to update a numeric total with `+=`.
+- How to calculate remaining progress using subtraction.
+- How to use `if`, `elif`, and `else` with numeric values.
+- How to adjust calculated values to improve the user experience.
+- How to debug duplicated code and indentation problems.
+
+### Next Goals
+- Add a journaling feature.
+- Add better input validation.
+- Save wellness data using JSON.

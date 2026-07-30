@@ -100,3 +100,25 @@ Previously, GlowTrack closed after completing a single task. The new menu system
 - Add a journaling feature.
 - Add better input validation.
 - Save wellness data using JSON.
+
+## July 30, 2026
+
+## Version 0.5 – Memory (Milestone 1)
+
+## Feature Added
+- Journal Entry feature
+- JSON integration
+- Ability to save journal entries
+- Ability to load saved journal entries
+
+## Learned
+- Importing Python's JSON module
+- Creating dictionaries for structured data
+- Writing JSON files with json.dump()
+- Reading JSON files with json.load()
+- Difference between read ("r") and write ("w") file modes
+
+## Next Goals
+- Handle missing save files gracefully
+- Save multiple journal entries
+- Expand JSON to store moods, water intake, and habits

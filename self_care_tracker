@@ -1,4 +1,6 @@
 import random
+import json
+
 def log_mood():
     mood = input("How are you feeling today? ")
 
@@ -83,6 +85,31 @@ def track_water():
 
     print("Remaining:", remaining, "oz")
 
+def journal_entry():
+    print("\n📝 Daily Journal")
+
+    journal = input("What's on your mind today? ")
+
+    data = {
+        "journal": journal
+    }
+
+    with open("glowtrack_data.json", "w") as file:
+        json.dump(data, file, indent=4)
+
+    print("\n✨ Your journal entry:")
+    print(journal)
+
+    print("\nThank you for taking time to reflect today. 🌸")
+
+def view_journal():
+    with open("glowtrack_data.json", "r") as file:
+        data = json.load(file)
+
+    print("\n📖 Your saved journal entry:")
+    print(data["journal"])
+
+
 def main():
     while True:
         print("\nWelcome to GlowTrack ✨")
@@ -90,7 +117,9 @@ def main():
         print("2. Track Habits")
         print("3. Daily Affirmation")
         print("4. Water Tracker")
-        print("5. Exit")
+        print("5. Journal Entry")
+        print("6. View Saved Journal")
+        print("7. Exit")
 
         choice = input("Choose an option: ")
 
@@ -107,11 +136,17 @@ def main():
             track_water()
 
         elif choice == "5":
-            print("Goodbye! Take care of yourself 🌸")
+            journal_entry()
+
+        elif choice == "6":
+            view_journal()
+
+        elif choice == "7":
+            print("Thank you for using GlowTrack! 💖")
             break
 
         else:
-            print("Invalid option. Please choose 1–5.")
+            print("Invalid option. Please choose 1–7.")
 
-   
+
 main()

@@ -1,133 +1,174 @@
 # 🌸 GlowTrack Roadmap
 
-GlowTrack is a beginner-friendly Python application that is evolving into the first software project in the SoulSpace wellness ecosystem.
+GlowTrack is a beginner-friendly Python wellness application that is growing alongside my Computer Science education. It is the first planned application within the **"SoulSpace"** wellness ecosystem.
 
-The goal of this roadmap is to document the application's growth while applying new programming concepts learned throughout my Computer Science degree.
-
----
-
-# 🚀 Current Version
-
-**Current Release:** Version 0.4
-
-## Completed
-
-### ✅ Version 0.1 – Foundation
-- Created the initial console application
-- Built the main menu
-- Added basic navigation
+This roadmap documents both the software's evolution and the programming concepts learned throughout its development.
 
 ---
 
-### ✅ Version 0.2 – Core Wellness Features
+# 🚀 Current Release
+
+**Current Version:** **v0.5 – Memory (Milestone 1)**
+
+## Current Features
+
+- 🌸 Mood Tracker
+- 💧 Water Tracker
+- 📚 Habit Tracker
+- ✨ Daily Affirmation Generator
+- 📝 Journal Entry
+- 💾 JSON Data Persistence
+- 📖 View Saved Journal
+
+---
+
+# 📦 Release History
+
+## ✅ Version 0.1 – Foundation
+
+- Initial console application
+- Main menu
+- Basic navigation
+
+---
+
+## ✅ Version 0.2 – Core Wellness Features
+
 - Mood tracker
 - Habit tracker
 - Daily affirmation generator
-- Refactored code into reusable functions
-- Added README and development log
-- GitHub version control workflow
+- Refactored into reusable functions
+- README documentation
+- Development log
+- GitHub version control
 
 ---
 
-### ✅ Version 0.3 – Improved User Experience
-- Added repeating menu using a `while` loop
+## ✅ Version 0.3 – Application Flow
+
+- Repeating menu using a `while` loop
 - Improved application flow
-- Added version tracking
-- Continued documenting project development
+- Version tracking
+- Continued project documentation
 
 ---
 
-# 🔄 Version 0.4 – Wellness Expansion
+## ✅ Version 0.4 – Wellness Expansion
 
-## Progress
-
-- ✅ Daily water intake tracker
-- ⏳ Journal entries
-- ⏳ Simple wellness summary
-- ⏳ Better input validation
+- Water intake tracker
+- Hydration goal tracking
+- Progress feedback
+- Improved wellness experience
 
 ---
 
-# 🌱 Version 0.5 – Data Persistence
+## ✅ Version 0.5 – Memory (Milestone 1)
 
-## Planned Features
+- Journal Entry
+- Save journal to JSON
+- Load saved journal
+- View saved journal
+- First implementation of persistent data
 
-- Save data using JSON
-- Load previous sessions
+---
+
+# 🔄 Version 0.5 – Planned Enhancements
+
+The core memory system is complete. Future improvements include:
+
+- Better input validation
+- Error handling (`try` / `except`)
+- Save multiple journal entries
 - Store mood history
+- Store water history
 - Store habit history
-- Store journal entries
+- Welcome back screen
+- Daily wellness summary
 
 ---
 
 # 🧩 Version 1.0 – Object-Oriented Redesign
 
-## Planned Features
+After completing Object-Oriented Programming, GlowTrack will be redesigned using classes while preserving all existing functionality.
 
-Apply Object-Oriented Programming concepts learned in PY103.
-
-Potential classes include:
+### Potential Classes
 
 - User
-- Habit
 - MoodEntry
-- JournalEntry
+- HabitTracker
 - WaterTracker
+- JournalEntry
 - AffirmationManager
 
-The goal of Version 1.0 is to redesign the application using classes and objects while preserving all existing functionality.
+Goals include:
+
+- Improved organization
+- Better code reuse
+- Easier feature expansion
+- Stronger software architecture
 
 ---
 
-# 🌐 Version 2.0 – Desktop/Web Experience
+# 🌐 Version 2.0 – Desktop / Web Experience
 
 Planned improvements include:
 
 - Modern graphical interface
 - Improved navigation
-- Better visual design
 - Wellness dashboard
-- Charts and progress tracking
+- Charts and statistics
+- Better user experience
+- Expanded data visualization
 
 ---
 
-# 📱 Future Vision – SoulSpace
+# 🌿 Wellness Ecosystem Vision
 
-GlowTrack is planned to become the first application within the SoulSpace wellness ecosystem.
+GlowTrack is being designed as the foundation of a larger emotional wellness software ecosystem.
 
-Potential future applications include:
+During development, **"SoulSpace"** is used as an internal working title for this ecosystem. A final public brand name will be selected before launch after appropriate branding and trademark research.
 
-- 🌸 GlowTrack
-  Daily wellness companion
+Potential companion applications include:
 
-- 🌙 LunaCycle
-  Private menstrual health tracker
-
-- 🤍 MamaSpace
-  Pregnancy and motherhood companion
-
-- 🌿 CalmSpace
-  Mindfulness and stress relief
-
-- 📖 JournalSpace
-  Guided journaling and reflection
+- 🌸 GlowTrack — Daily wellness companion
+- 🌙 LunaCycle — Private menstrual health tracker
+- 🤍 MamaSpace — Pregnancy and motherhood companion
+- 🌿 CalmSpace — Mindfulness and stress relief
+- 📖 JournalSpace — Guided journaling and reflection
 
 ---
 
-# 🎯 Learning Goals
+# 🎓 Learning Roadmap
 
-This project is designed to grow alongside my Computer Science education.
+GlowTrack grows alongside my Computer Science degree.
 
-Each new course introduces concepts that will be applied to future versions of GlowTrack.
+Each completed course introduces new concepts that are incorporated into future releases.
 
-Examples include:
+### Programming Skills Applied
 
-- Python Fundamentals
+- ✅ Python Fundamentals
+- ✅ Functions
+- ✅ Loops
+- ✅ Dictionaries
+- ✅ JSON File Storage
+
+### Upcoming Skills
+
 - Object-Oriented Programming
 - JavaScript & TypeScript
 - Web Development
-- User Interface Design
 - REST APIs
-- Mobile Development
+- SQL Databases
+- Authentication
+- Frontend Development
+- AI Integration
 
-The goal is to document not only the final application but also my growth as a software developer.
+---
+
+# 💙 Project Philosophy
+
+GlowTrack is more than a programming exercise.
+
+Each version is intentionally designed to introduce one or two new programming concepts while steadily evolving into a polished wellness application.
+
+The goal is to document both the growth of the software and my growth as a software developer.

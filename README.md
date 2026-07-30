@@ -91,8 +91,6 @@ This project was built to strengthen understanding of:
 Planned future upgrades include:
 
 
-- 📝 journaling section
-- 💾 save user data with JSON
 - 📈 progress statistics and wellness summaries
 - 🔥 habit and hydration streak tracking
 - 😊 mood history
@@ -134,6 +132,11 @@ GlowTrack is being developed incrementally as part of a beginner programming por
 - Water tracker
 - Progress feedback
 - Hydration goal tracking
+
+### Version 0.5
+- Journal Entry
+- JSON Data Persistence
+- View Saved Journal
 
 ---
 
